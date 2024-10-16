@@ -1,8 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["storage.googleapis.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: '"storage.googleapis.com"',
+        port: "",
+      },
+    ],
   },
 };
+
+if (process.env.NEXT_PUBLIC_TEMPO) {
+  nextConfig["experimental"] = {
+    swcPlugins: [[require.resolve("tempo-devtools/swc"), {}]],
+  };
+}
 
 export default nextConfig;

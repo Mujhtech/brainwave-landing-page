@@ -11,9 +11,20 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "muted-foreground": "var(--muted-foreground)",
+        primary: {
+          DEFAULT: "var(--primary)",
+          light: "var(--primary-light)",
+        },
+        border: "var(--border)",
+        secondary: "var(--secondary)",
+        success: "var(--success)",
+      },
+      backgroundImage: {
+        "hero-dots": "url('/hero-dots.png')",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
 export default config;

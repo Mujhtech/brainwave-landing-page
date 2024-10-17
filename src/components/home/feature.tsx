@@ -13,12 +13,11 @@ export default function Feature() {
         title="Track your progress with our advanced site."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="h-[424px] w-[600px] relative">
-            <Image
+          <div className="max-w-[600px] relative">
+            <img
               src={Assets.CONTENT_1}
               alt="Track your progress with our advanced site."
-              fill={true}
-              className=""
+              className="max-w-[600px]"
             />
           </div>
         }
@@ -28,12 +27,11 @@ export default function Feature() {
         title="Understand your visitors fast. Take quick actions."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="h-[468px] w-[509px] relative">
-            <Image
+          <div className="max-w-[509px] w-full relative">
+            <img
               src={Assets.CONTENT_2}
               alt="Understand your visitors fast. Take quick actions."
-              fill={true}
-              className=""
+              className="max-w-[509px]"
             />
           </div>
         }
@@ -43,12 +41,11 @@ export default function Feature() {
         title="Make your customers happy by giving services."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="h-[511px] w-[450px] relative">
-            <Image
+          <div className="max-w-[450px] relative">
+            <img
               src={Assets.CONTENT_3}
               alt="Make your customers happy by giving services."
-              fill={true}
-              className=""
+              className="max-w-[450px]"
             />
           </div>
         }
@@ -77,7 +74,7 @@ const ContentCard = ({
         )}
       >
         <div className="flex flex-col w-full max-w-[32rem] px-4 md:px-0">
-          <h3 className="text-5xl font-bold mb-4">{title}</h3>
+          <h3 className="text-4xl font-bold mb-4">{title}</h3>
           <p className="text-lg">{description}</p>
           <div className="mt-8">
             <Link
@@ -89,9 +86,8 @@ const ContentCard = ({
             </Link>
           </div>
         </div>
-        <div className="flex items-center justify-center relative w-full">
-          {image}
-        </div>
+
+        {image}
       </div>
     </div>
   );

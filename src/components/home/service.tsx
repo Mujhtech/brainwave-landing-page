@@ -40,7 +40,7 @@ const ServiceCard = ({
     <div className="flex gap-4">
       {icon}
       <div className="flex flex-col gap-3 w-full md:max-w-[300px]">
-        <h2 className="text-2xl font-bold">{title}</h2>
+        <h2 className="text-xl font-bold">{title}</h2>
         <p className="text-lg">{description}</p>
       </div>
     </div>

@@ -84,10 +84,8 @@ const PricingCard = ({
       <div className="mt-6 flex flex-col gap-2">
         <Link
           className={cn(
-            "inline-flex items-center justify-between rounded-lg text-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 h-11 px-5",
-            recommended
-              ? "text-white bg-primary"
-              : "text-primary bg-primary-light"
+            "inline-flex items-center justify-between rounded-lg text-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 h-14 max-w-[13rem] px-5",
+            recommended ? "text-white bg-primary" : "text-primary bg-primary-10"
           )}
           href={"/sign-in"}
           target="_blank"

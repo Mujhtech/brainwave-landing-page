@@ -11,10 +11,10 @@ const nextConfig = {
   },
 };
 
-if (process.env.NEXT_PUBLIC_TEMPO) {
-  nextConfig["experimental"] = {
-    swcPlugins: [["tempo-devtools/swc", {}]],
-  };
-}
+// if (process.env.NEXT_PUBLIC_TEMPO) {
+//   nextConfig["experimental"] = {
+//     swcPlugins: [["tempo-devtools/swc", {}]],
+//   };
+// }
 
 export default nextConfig;

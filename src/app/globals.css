@@ -7,7 +7,7 @@
   --foreground: #171717;
   --muted-foreground: #6c6c6c;
   --primary: #473bf0;
-  --primary-light: #f0effe;
+  --primary-10: rgba(71, 59, 240, 0.1);
   --border: #292f41;
   --secondary: #161c2d;
   --success: #68d585;

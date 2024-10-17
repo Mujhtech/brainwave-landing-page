@@ -14,7 +14,7 @@ const config: Config = {
         "muted-foreground": "var(--muted-foreground)",
         primary: {
           DEFAULT: "var(--primary)",
-          light: "var(--primary-light)",
+          10: "var(--primary-10)",
         },
         border: "var(--border)",
         secondary: "var(--secondary)",

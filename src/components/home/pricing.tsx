@@ -25,7 +25,7 @@ export default function Pricing() {
             <div className="flex items-center gap-2">
               <PricingSwitch isYearly={isYearly} onToggle={togglePricing} />
 
-              <div className="bg-primary-10 text-primary font-bold rounded-full px-3 py-2">
+              <div className="bg-primary-10 text-primary font-bold rounded-full px-2 py-1 text-[13px]">
                 Save 25%
               </div>
             </div>

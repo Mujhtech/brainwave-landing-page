@@ -15,7 +15,8 @@ export default function Feature() {
         image={
           <div className="max-w-[600px] relative">
             <img
-              src={Assets.CONTENT_1}
+              // src={Assets.CONTENT_1}
+              src="/05-content-img-1-02.png"
               alt="Track your progress with our advanced site."
               className="max-w-[600px]"
             />
@@ -37,7 +38,7 @@ export default function Feature() {
         }
       />
       <ContentCard
-        className="flex-col-reverse md:flex-row-reverse"
+        className="flex-col-reverse md:flex-row-reverse mb-20"
         title="Make your customers happy by giving services."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
@@ -66,7 +67,7 @@ const ContentCard = ({
   className?: string;
 }) => {
   return (
-    <div className="max-w-6xl mx-auto w-full py-20">
+    <div className="max-w-6xl mx-auto w-full py-4">
       <div
         className={cn(
           "flex flex-col md:flex-row md:items-center md:justify-between",

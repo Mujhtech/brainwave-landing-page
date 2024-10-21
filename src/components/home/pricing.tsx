@@ -31,7 +31,7 @@ export default function Pricing() {
             </div>
           </div>
           <div className="my-5"></div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20">
             <StarterPlan />
             <StandardPlan />
             <PremiumPlan />

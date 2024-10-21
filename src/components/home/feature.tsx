@@ -13,12 +13,12 @@ export default function Feature() {
         title="Track your progress with our advanced site."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="max-w-[600px] relative">
+          <div className="max-w-[600px] w-full px-4 md:px-0 relative">
             <img
               // src={Assets.CONTENT_1}
               src="/05-content-img-1-02.png"
               alt="Track your progress with our advanced site."
-              className="max-w-[600px]"
+              className="max-w-[600px]  w-full"
             />
           </div>
         }
@@ -28,11 +28,11 @@ export default function Feature() {
         title="Understand your visitors fast. Take quick actions."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="max-w-[509px] w-full relative">
+          <div className="max-w-[509px] w-full px-4 md:px-0 relative">
             <img
               src={Assets.CONTENT_2}
               alt="Understand your visitors fast. Take quick actions."
-              className="max-w-[509px]"
+              className="max-w-[509px] w-full"
             />
           </div>
         }
@@ -42,11 +42,11 @@ export default function Feature() {
         title="Make your customers happy by giving services."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="max-w-[450px] relative">
+          <div className="max-w-[450px] px-4 md:px-0  w-full relative">
             <img
               src={Assets.CONTENT_3}
               alt="Make your customers happy by giving services."
-              className="max-w-[450px]"
+              className="max-w-[450px]  w-full"
             />
           </div>
         }

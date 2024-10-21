@@ -13,7 +13,7 @@ export default function Feature() {
         title="Track your progress with our advanced site."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="max-w-[600px] w-full px-4 md:px-0 relative pb-4 md:pb-0">
+          <div className="max-w-[600px] w-full px-4 md:px-0 relative pb-5 md:pb-0">
             <img
               // src={Assets.CONTENT_1}
               src="/05-content-img-1-02.png"
@@ -28,7 +28,7 @@ export default function Feature() {
         title="Understand your visitors fast. Take quick actions."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="max-w-[509px] w-full px-4 md:px-0 relative pb-4 md:pb-0">
+          <div className="max-w-[509px] w-full px-4 md:px-0 relative pb-5 md:pb-0">
             <img
               src={Assets.CONTENT_2}
               alt="Understand your visitors fast. Take quick actions."
@@ -42,7 +42,7 @@ export default function Feature() {
         title="Make your customers happy by giving services."
         description="We share common trends and strategies for improving your rental income and making sure you stay in high demand."
         image={
-          <div className="max-w-[450px] px-4 md:px-0  w-full relative pb-4 md:pb-0">
+          <div className="max-w-[450px] px-4 md:px-0  w-full relative pb-5 md:pb-0">
             <img
               src={Assets.CONTENT_3}
               alt="Make your customers happy by giving services."

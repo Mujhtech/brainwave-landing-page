@@ -240,7 +240,6 @@ const FooterLink = ({
 const SocialLink = ({
   href,
   label,
-  external = true,
   className,
   icon,
 }: FooterLinkProps & {
@@ -248,9 +247,10 @@ const SocialLink = ({
 }) => {
   return (
     <Link
-      className={
-        "text-white text-lg inline-flex items-center hover:underline-offset-4 hover:underline"
-      }
+      className={cn(
+        "text-white text-lg inline-flex items-center hover:underline-offset-4 hover:underline",
+        className
+      )}
       href={href}
       target="_blank"
       rel="noreferrer"

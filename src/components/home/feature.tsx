@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import { Icons } from "../icon";
 import Link from "next/link";
 import { cn } from "@/lib/util";
-import Image from "next/image";
 import { Assets } from "@/lib/asset";
 
 export default function Feature() {

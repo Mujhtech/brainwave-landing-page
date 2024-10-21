@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Icons } from "../icon";
+import { cn } from "@/lib/util";
 
 const companyLinks = [
   {
@@ -224,9 +225,10 @@ const FooterLink = ({
 
   return (
     <Link
-      className={
-        "text-white text-lg inline-flex items-center hover:underline-offset-4 hover:underline"
-      }
+      className={cn(
+        "text-white text-lg inline-flex items-center hover:underline-offset-4 hover:underline",
+        className
+      )}
       href={href}
       {...externalProps}
     >

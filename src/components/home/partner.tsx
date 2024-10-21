@@ -1,6 +1,5 @@
 import { Assets } from "@/lib/asset";
 import { cn } from "@/lib/util";
-import Image from "next/image";
 import React from "react";
 
 export default function Partner() {

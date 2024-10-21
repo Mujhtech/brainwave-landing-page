@@ -1,6 +1,6 @@
 "use client";
 // import { TempoDevtools } from "tempo-devtools";
-import { Fragment, useEffect } from "react";
+import { Fragment } from "react";
 
 export default function AppProvider({
   children,
